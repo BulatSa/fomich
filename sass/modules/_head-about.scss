@@ -1,0 +1,57 @@
+.head-about-sec {
+	min-height: 100vh;
+	padding-top: 85px;
+	padding-bottom: 80px;
+	background: url("../img/header/bg-header.jpg") no-repeat center;
+	background-size: cover;
+	@include res(l) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	@include res(m) {
+
+		background: url("../img/header/bg-header-mobile.jpg") no-repeat center;
+		background-size: cover;
+	}
+	@include res(s) {
+		min-height: initial;
+		padding-top: 20px;
+		padding-bottom: 40px;
+		background-position: center left;
+	}
+}
+
+.head-about {
+	max-width: 620px;
+	.user-content {
+		max-width: 480px;
+		padding-bottom: 60px;
+		@include res(s) {
+			padding-bottom: 30px;
+		}
+	}
+}
+
+.head-about__license {
+	display: flex;
+	align-items: center;
+	max-width: 320px;
+	padding-bottom: 40px;
+	img {
+		display: block;
+		max-width: 66px;
+		flex-shrink: 0;
+		margin-right: 15px;
+	}
+	span {
+		font-family: $proxima;
+		font-size: 15px;
+		line-height: 1.2;
+	}
+}
+
+.head-about__btn {
+	@include res(s) {
+		text-align: center;
+	}
+}

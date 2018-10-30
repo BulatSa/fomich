@@ -1,0 +1,150 @@
+.about-sec {
+	padding-top: 85px;
+	padding-bottom: 80px;
+	background: url("../img/about/bg.jpg") no-repeat center top, #071522;
+	overflow: hidden;
+	@include res(m) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background: url("../img/about/bg-mobile.jpg") no-repeat center top, #071522;
+	}
+}
+
+.about {
+	position: relative;
+}
+
+.about__text {
+	max-width: 560px;
+	min-height: 560px;
+	padding-bottom: 30px;
+	@include res(m) {
+		min-height: initial;
+	}
+	.user-content {
+		max-width: 480px;
+	}
+}
+
+.about__video {
+	position: absolute;
+	right: 70px;
+	top: 130px;
+	@include res(m) {
+		position: relative;
+		right: initial;
+		top: initial;
+	}
+	a {
+		position: relative;
+		display: flex;
+		align-items: center;
+		right: -30px;
+		margin-bottom: 140px;
+		transition: all 0.3s ease;
+		@include res(m) {
+			right: initial;
+			margin-bottom: 20px;
+		}
+		&:hover {
+			transform: translate3d(0,-6px,0);
+		}
+		img {
+			display: block;
+			@include res(m) {
+				max-width: 100px;
+			}
+		}
+		span {
+			padding-left: 20px;
+			color: $red;
+			font-size: 16px;
+			font-weight: 300;
+			transform: translate3d(0,0,0);
+		}
+	}
+	p {
+		position: relative;
+		max-width: 250px;
+		font-size: 30px;
+		font-weight: 200;
+		text-align: center;
+		@include res(xl) {
+			font-size: 28px;
+		}
+		@include res(l) {
+			font-size: 24px;
+		}
+		@include res(m) {
+			font-size: 22px;
+			margin: 0 auto -50px;
+		}
+		&:before {
+			content: '“';
+			display: block;
+			margin-bottom: -35px;
+			text-align: center;
+			font-family: $proxima;
+			font-size: 72px;
+			line-height: 1;
+		}
+		&:after {
+			content: '”';
+			display: block;
+			text-align: center;
+			font-family: $proxima;
+			font-size: 72px;
+			line-height: 1;
+		}
+	}
+}
+
+.about__slider {
+	width: 100%;
+	margin-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	@include res(m) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.flickity-button {
+		transition: all 0.3s ease;
+		//background: #fff;
+		//background: transparentize(#fff,0.5);
+		&.previous {
+			@include res(m) {
+				left: 0;
+			}
+		}
+		&.next {
+			@include res(m) {
+				right: 0;
+			}
+		}
+	}
+}
+
+.about__slide {
+	width: calc(100% / 3);
+	padding-left: 20px;
+	padding-right: 20px;
+	@include res(m) {
+		width: 50%;
+	}
+	@include res(s) {
+		width: 100%;
+		text-align: center;
+	}
+	a {
+		display: block;
+		@include res(m) {
+			display: inline-block;
+		}
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		border-radius: 10px;
+	}
+}

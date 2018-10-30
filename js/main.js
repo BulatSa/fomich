@@ -181,3 +181,27 @@ $(function () {
 /***********************
  Waypoints END
  ***********************/
+
+
+/***********************
+About Slider BEGIN
+***********************/
+$(document).ready(function() {
+	var aboutSliderOptions = {
+		contain: true,
+		groupCells: 3,
+		arrowShape: 'M42.5,26L19,49.5c-0.3,0.3-0.3,0.7,0,0.9l23.5,23.5c0.3,0.3,0.7,0.3,1,0l3-3L28,52.4h50.6 c1.5,0,2.6-1.1,2.6-2.6l0,0c0-1.4-1.2-2.6-2.6-2.6H28.3l18.2-18.1l-3-3.1C43.2,25.8,42.8,25.8,42.5,26L42.5,26z'
+	};
+
+	if ( matchMedia('screen and (max-width: 768px)').matches ) {
+		aboutSliderOptions.groupCells = false;
+	}
+
+	$('.about__slider').flickity(aboutSliderOptions);
+
+
+
+});
+/***********************
+About Slider END
+***********************/

@@ -1,35 +1,85 @@
 ﻿<?php include('header.php'); ?>
 
-<section>
+
+
+
+
+<section class="head-about-sec">
+	<div class="container-big">
+		<div class="header">
+			<div class="header__logo">
+				Anna Fomicheva
+			</div>
+			<div class="header__phone">
+				<span>Telegram | Whats App</span>
+				<a href="tel:8 (925) 901-00-11">8 (925) 901-00-11</a>
+			</div>
+		</div>
+	</div>
 	<div class="container">
-		<h1>Hello from the other side</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h2>Hello from the other side</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h3>Hello from the other side</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h4>Hello from the other side</h4>
-		<ul>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ul>
-		<h5>Hello from the other side</h5>
-		<ol>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ol>
+		<div class="head-about">
+			<h1>Эксперт-практик в области ВЭД с 2008 года</h1>
+			<div class="user-content">
+				<p>Анна Фомичева является бизнес-тренером, эксперт-практиком в области ВЭД, специалист по вопросам коммерческого взаимодействия с Китаем. Основала Международный консалтинговый центр «Бизнес-Логистика». Стала автором и преподавателем обучающего курса ВЭД, в собственном учебном центре «Бизнес Логистика» — «Школа ВЭД». Является консультантом и основным спикером «Альфа банк», по вопросам ВЭД. Автор книг и научных работ по ВЭД.</p>
+			</div>
+			<div class="head-about__license">
+				<img src="img/head-license-2x.png" alt="">
+				<span>Партнер и член аттестационной комиссии Российской Таможенной Академии</span>
+			</div>
+			<div class="head-about__btn">
+				<a href="#" class="btn">получить консультацию</a>
+			</div>
+		</div>
+	</div>
+</section>
 
-		<a href="#" class="fancy-modal btn" data-src="#modal-order">Открыть order</a>
-		<a href="#" class="fancy-modal btn" data-src="#modal-order">Открыть order</a>
-		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
-		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
-		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video btn">Открыть youtube</a>
-		<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map btn">схема проезда</a>
 
+<section class="about-sec">
+	<div class="container">
+		<div class="about">
+			<div class="about__text">
+				<p class="h2">Анна Фомичева раскрывает все аспекты ведения бизнеса в России и за рубежом</p>
+				<div class="user-content">
+					<p>На канале «Бизнес Ракета» на YouTube можно получить практические навыки ведения бизнеса в России и за рубежом. Анна Фомичева приглашает к беседе ярких спикеров — владельцев интересного бизнеса, которые в ходе откровенной беседы рассказывают о своих удачах и препятствиях на пути к успеху. Это те люди, на которых будет равняться поколение молодых предпринимателей!</p>
+					<p>Анна Фомичева не боится показать, что происходит на территории объектов строжайшей секретности и знакомит с самыми частыми ошибками в сфере ВЭД, о которых не принято говорить громко.</p>
+				</div>
+			</div>
+			<div class="about__video">
+				<a href="#">
+					<img src="img/about/play.png" alt="">
+					<span>Подписаться<br> на канал</span>
+				</a>
+				<p>Говорю то, о чем многие публично молчат</p>
+			</div>
+			<div class="about__slider">
+				<div class="about__slide">
+					<a href="#">
+						<img src="img/about/slide-1.jpg" alt="">
+					</a>
+				</div>
+				<div class="about__slide">
+					<a href="#">
+						<img src="img/about/slide-2.jpg" alt="">
+					</a>
+				</div>
+				<div class="about__slide">
+					<a href="#">
+						<img src="img/about/slide-3.jpg" alt="">
+					</a>
+				</div>
+				<div class="about__slide">
+					<a href="#">
+						<img src="img/about/slide-1.jpg" alt="">
+					</a>
+				</div>
+				<div class="about__slide">
+					<a href="#">
+						<img src="img/about/slide-2.jpg" alt="">
+					</a>
+				</div>
+
+			</div>
+		</div>
 	</div>
 </section>
 

@@ -8,8 +8,11 @@ $breakpoints: (
 	'xxs': (max-width: 375px),
 );
 
-$font: Segoe Ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$museo: 'Museo Sans Cyrl', 'Helvetica Neue', Arial, sans-serif;
+$proxima: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif;
 
 $container_width: 1000px;
 
-$gutter: 12px;
+$gutter: 10px;
+
+$red: #ed0043;
