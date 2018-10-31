@@ -18,6 +18,16 @@
 	user-select: none;
 	background-color: $red;
 	transition: all 0.3s ease;
+	@include res(xl) {
+		padding: 18px 35px;
+	}
+	@include res(l) {
+		padding: 15px 30px;
+	}
+	@include res(s) {
+		padding: 12px 25px 11px;
+		font-size: 12px;
+	}
 	&:hover {
 		background-color: #FF0044;
 		box-shadow: 0 4px 0 0 #b00032;

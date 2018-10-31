@@ -1,0 +1,22 @@
+.consult-sec {
+  background: url("../img/consult/bg.jpg") no-repeat center;
+}
+
+.consult__quote-sign {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.consult__quote-sign img {
+  display: block;
+  max-width: 130px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+/*# sourceMappingURL=_consult.css.map */

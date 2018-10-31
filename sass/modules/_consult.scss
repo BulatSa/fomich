@@ -1,0 +1,61 @@
+.consult-sec {
+	padding-top: 180px;
+	padding-bottom: 80px;
+	background: url("../img/consult/bg.jpg") no-repeat center top;
+	@include res(m) {
+		padding-top: 80px;
+		padding-bottom: 430px;
+		background: url("../img/consult/bg-mobile.jpg") no-repeat center bottom, #071522;
+		background-size: 500px auto;
+	}
+	@include res(s) {
+		padding-top: 60px;
+	}
+}
+
+.consult {}
+
+.consult__info {
+	max-width: 550px;
+	.btn {
+		@include res(m) {
+			margin-top: 10px;
+		}
+	}
+}
+
+.consult__quote {
+	max-width: 430px;
+	padding-top: 30px;
+	padding-left: 60px;
+	@include res(m) {
+		padding-left: 0;
+	}
+	p {
+		font-size: 20px;
+		line-height: (30/20);
+		font-weight: 200;
+		@include res(s) {
+			font-size: 18px;
+		}
+	}
+}
+
+.consult__quote-sign {
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+	img {
+		display: block;
+		max-width: 130px;
+		flex-shrink: 0;
+	}
+	span {
+		font-size: 20px;
+		line-height: (30/20);
+		font-weight: 200;
+		@include res(s) {
+			font-size: 16px;
+		}
+	}
+}

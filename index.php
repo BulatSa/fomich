@@ -27,7 +27,7 @@
 				<span>Партнер и член аттестационной комиссии Российской Таможенной Академии</span>
 			</div>
 			<div class="head-about__btn">
-				<a href="#" class="btn">получить консультацию</a>
+				<a href="#" class="btn fancy-modal" data-src="#modal-cons">получить консультацию</a>
 			</div>
 		</div>
 	</div>
@@ -53,29 +53,171 @@
 			</div>
 			<div class="about__slider">
 				<div class="about__slide">
-					<a href="#">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video">
 						<img src="img/about/slide-1.jpg" alt="">
 					</a>
 				</div>
 				<div class="about__slide">
-					<a href="#">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video">
 						<img src="img/about/slide-2.jpg" alt="">
 					</a>
 				</div>
 				<div class="about__slide">
-					<a href="#">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video">
 						<img src="img/about/slide-3.jpg" alt="">
 					</a>
 				</div>
 				<div class="about__slide">
-					<a href="#">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video">
 						<img src="img/about/slide-1.jpg" alt="">
 					</a>
 				</div>
 				<div class="about__slide">
-					<a href="#">
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video">
 						<img src="img/about/slide-2.jpg" alt="">
 					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="consult-sec">
+	<div class="container">
+		<div class="consult">
+			<div class="consult__info">
+				<p class="h2">Получите консультацию в области ВЭД </p>
+				<p class="h3">и систематизации бизнеса от эксперта с десятилетним опытом</p>
+				<a href="#" class="btn fancy-modal" data-src="#modal-cons">получить консультацию</a>
+			</div>
+			<div class="consult__quote">
+				<p>Реалии современного ВЭД — это уход от «серых схем» и работа в «белую», по прямым контрактам.<br>Только это действительно выгодно и безопасно!</p>
+				<div class="consult__quote-sign">
+					<img src="img/consult/sign-2x.png" alt="">
+					<span>© Анна Фомичева</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="direction-sec">
+	<div class="container-big">
+		<p class="direction-name">Anna Fomicheva</p>
+	</div>
+	<div class="container">
+		<div class="direction">
+			<p class="direction__title h2">Направление деятельности</p>
+			<div class="direction__list">
+				<div class="direction__item">
+					<div class="direction__item-title">Аутсорсинг ВЭД</div>
+					<img src="img/direction/item-1.jpg" alt="">
+					<span class="direction__item-descr">Возьму на себя все вопросы, связанные с логистикой и внешнеэкономической деятельностью.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="direction__item">
+					<div class="direction__item-title">Таможенный
+						представитель</div>
+					<img src="img/direction/item-2.jpg" alt="">
+					<span class="direction__item-descr">Обеспечу защиту интересов компании и подскажу, как сократить издержки, связанные с декларированием товарных партий.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="direction__item">
+					<div class="direction__item-title">Учебный центр</div>
+					<img src="img/direction/item-3.jpg" alt="">
+					<span class="direction__item-descr">Преподаватели центра работают по авторской методике Stepinworking, что гарантирует погружение в рабочий процесс с первых дней обучения.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="direction__item">
+					<div class="direction__item-title">Торговое
+						финансирование</div>
+					<img src="img/direction/item-4.jpg" alt="">
+					<span class="direction__item-descr">Помогу привлечь деньги для внешнеторговых операций вашей организации за счет средств банка или заемных средств.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="direction__item">
+					<div class="direction__item-title">Таможенный аудит</div>
+					<img src="img/direction/item-5.jpg" alt="">
+					<span class="direction__item-descr">Проанализирую документы, предназначенные для таможенных органов, и подскажу варианты легального снижения существующих затрат.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="direction__item">
+					<div class="direction__item-title">Юридическое
+						сопровождение ВЭД</div>
+					<img src="img/direction/item-6.jpg" alt="">
+					<span class="direction__item-descr">Разрешу все виды споров и обеспечу защиту ваших интересов в вопросах таможенного законодательства.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="direction__item">
+					<div class="direction__item-title">Консультирование
+						по вопросам ВЭД</div>
+					<img src="img/direction/item-1.jpg" alt="">
+					<span class="direction__item-descr">Проконсультирую по всем этапам внешнеэкономической деятельности и помогу совершить импортные и экспортные сделки.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="direction__item">
+					<div class="direction__item-title">Возврат китайского
+						НДС</div>
+					<img src="img/direction/item-2.jpg" alt="">
+					<span class="direction__item-descr">Помогу законно вернуть НДС при экспорте в краткие сроки.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="direction__item">
+					<div class="direction__item-title">Помощь в оформлении
+						УЭО и ТП</div>
+					<img src="img/direction/item-3.jpg" alt="">
+					<span class="direction__item-descr">Организую работу с платежными документами для упрощенной процедуры таможенного оформления.</span>
+					<div class="direction__item-link">
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
 				</div>
 
 			</div>

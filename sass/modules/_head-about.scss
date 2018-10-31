@@ -9,12 +9,11 @@
 		padding-bottom: 40px;
 	}
 	@include res(m) {
-
+		min-height: initial;
 		background: url("../img/header/bg-header-mobile.jpg") no-repeat center;
 		background-size: cover;
 	}
 	@include res(s) {
-		min-height: initial;
 		padding-top: 20px;
 		padding-bottom: 40px;
 		background-position: center left;

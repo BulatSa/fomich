@@ -1,11 +1,11 @@
 .about-sec {
 	padding-top: 85px;
-	padding-bottom: 80px;
+	//padding-bottom: 80px;
 	background: url("../img/about/bg.jpg") no-repeat center top, #071522;
 	overflow: hidden;
 	@include res(m) {
 		padding-top: 40px;
-		padding-bottom: 40px;
+		//padding-bottom: 40px;
 		background: url("../img/about/bg-mobile.jpg") no-repeat center top, #071522;
 	}
 }
