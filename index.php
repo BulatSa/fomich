@@ -226,4 +226,206 @@
 </section>
 
 
+<section class="courses-sec">
+	<div class="container">
+		<div class="courses">
+			<div class="courses__info">
+				<p class="h2">Авторские курсы</p>
+				<div class="user-content">
+					<p>Методология обучения, разработанная Анной Фомичевой, основана на практическом материале, реальных кейсах ведения бизнеса. Она досконально изучает каждый случай из своей практики и максимально доходчиво объясняет как его решить своим ученикам. Системность, поэтапность изучения и практика — это основы качественного вхождения в деятельность по ВЭД.</p>
+				</div>
+			</div>
+			<div class="courses__list">
+				<div class="courses__item">
+					<div class="courses__item-text">
+						<b>01</b>
+						<span>Групповые обучающие программы</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+					<div class="courses__item-img">
+						<img src="img/courses/book-1.jpg" alt="">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video"></a>
+					</div>
+				</div>
+				<div class="courses__item">
+					<div class="courses__item-text">
+						<b>02</b>
+						<span>Индивидуальные обучающие программы</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+					<div class="courses__item-img">
+						<img src="img/courses/book-2.jpg" alt="">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video"></a>
+					</div>
+				</div>
+
+				<div class="courses__item">
+					<div class="courses__item-text">
+						<b>03</b>
+						<span>Корпоративное обучение</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+					<div class="courses__item-img">
+						<img src="img/courses/book-3.jpg" alt="">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video"></a>
+					</div>
+				</div>
+				<div class="courses__item">
+					<div class="courses__item-text">
+						<b>04</b>
+						<span>Личная консультация</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+					<div class="courses__item-img">
+						<img src="img/courses/book-4.jpg" alt="">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video"></a>
+					</div>
+				</div>
+			</div>
+			<div class="courses__chat ">
+				<div class="courses__info">
+					<p class="h2">Секретный чат</p>
+					<div class="user-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+					</div>
+					<a href="#" class="btn">Вступить в секретный чат</a>
+				</div>
+				<img src="img/courses/telegram.png" class="anim" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="seminars-sec">
+	<div class="container">
+		<div class="seminars">
+			<div class="seminars__info">
+				<p class="h2">Анна Фомичева провела более 1000 бесплатных
+					семинаров в России и Китае</p>
+				<div class="user-content">
+					<p>Анна Фомичева создала учебный центр – спецшколу ВЭД, предоставляющий услуги повышения квалификации и обучения с нуля. Главная идея центра – дать студентам возможность увидеть деятельность изнутри. Все преподаватели учебного цента, в отличие от ВУЗовских, – не просто специалисты высочайшего класса, а практики и собственники бизнеса.</p>
+				</div>
+				<div class="seminars__quote">
+					Анну Фомичеву<br>приглашают СМИ как ведущего эксперта
+				</div>
+			</div>
+			<div class="seminars__logos">
+				<div class="seminars__logo">
+					<img src="img/seminars/smi-1.jpg" alt="">
+				</div>
+				<div class="seminars__logo">
+					<img src="img/seminars/smi-2.jpg" alt="">
+				</div>
+				<div class="seminars__logo">
+					<img src="img/seminars/smi-3.jpg" alt="">
+				</div>
+				<div class="seminars__logo">
+					<img src="img/seminars/smi-4.jpg" alt="">
+				</div>
+				<div class="seminars__logo">
+					<img src="img/seminars/smi-5.jpg" alt="">
+				</div>
+				<div class="seminars__logo">
+					<img src="img/seminars/smi-6.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="calendar-sec">
+	<div class="container">
+		<div class="calendar">
+			<p class="h2">Календарь событий</p>
+			<div class="calendar__list">
+				<div class="calendar__item">
+					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
+						<div class="calendar__item-date">01.11.2018<span>Казань</span></div>
+					</div>
+					<div class="calendar__item-info">
+						<p>Групповые обучающие программы</p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="calendar__item">
+					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
+						<div class="calendar__item-date">01.11.2018<span>Казань</span></div>
+					</div>
+					<div class="calendar__item-info">
+						<p>Групповые обучающие программы</p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="calendar__item">
+					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
+						<div class="calendar__item-date">01.11.2018<span>Казань</span></div>
+					</div>
+					<div class="calendar__item-info">
+						<p>Групповые обучающие программы</p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="calendar__item">
+					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
+						<div class="calendar__item-date">01.11.2018<span>Казань</span></div>
+					</div>
+					<div class="calendar__item-info">
+						<p>Групповые обучающие программы</p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="calendar__item">
+					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
+						<div class="calendar__item-date">01.11.2018<span>Казань</span></div>
+					</div>
+					<div class="calendar__item-info">
+						<p>Групповые обучающие программы</p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
+						<a href="#">
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>

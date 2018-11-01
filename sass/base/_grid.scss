@@ -37,6 +37,10 @@
 	position: relative;
 	padding-left: 20px;
 	padding-right: 20px;
+	@include res(s) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 
 .container-big {

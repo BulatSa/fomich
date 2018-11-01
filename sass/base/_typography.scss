@@ -71,6 +71,9 @@ h3, .h3 {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: (30/16);
+	@include res(s) {
+		line-height: 1.6;
+	}
 	p {
 		padding-bottom: 1.8em;
 		@include res(s) {

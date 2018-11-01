@@ -1,0 +1,82 @@
+.seminars-sec {
+	padding-bottom: 80px;
+	background: url("../img/seminars/bg.jpg") no-repeat center top, #081828;
+	@include res(m) {
+		padding-top: 20px;
+		margin-bottom: 60px;
+		background-size: cover;
+	}
+	@include res(s) {
+		padding-bottom: 40px;
+	}
+}
+
+.seminars {
+	position: relative;
+	//top: -150px;
+}
+
+.seminars__info {
+	text-align: center;
+}
+
+.seminars__quote {
+	position: relative;
+	margin-top: 30px;
+	font-size: 24px;
+	line-height: (30/24);
+	font-weight: 200;
+	@include res(s) {
+		margin-top: 20px;
+		margin-bottom: -10px;
+		font-size: 18px;
+	}
+	&:before {
+		content: '“';
+		display: block;
+		margin-bottom: -35px;
+		text-align: center;
+		font-family: $proxima;
+		font-size: 72px;
+		line-height: 1;
+	}
+	&:after {
+		content: '”';
+		display: block;
+		text-align: center;
+		font-family: $proxima;
+		font-size: 72px;
+		line-height: 1;
+	}
+}
+
+.seminars__logos {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+	@include res(s) {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+}
+
+.seminars__logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% / 6 - 20px);
+	margin: 0 10px;
+	padding: 10px 5px;
+	border-radius: 5px;
+	background: #fff;
+	@include res(s) {
+		width: calc(100% / 3 - 10px);
+		margin: 0 5px 10px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		width: 100%;
+	}
+}
