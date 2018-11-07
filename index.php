@@ -363,11 +363,24 @@
 					<div class="calendar__item-info">
 						<p>Групповые обучающие программы</p>
 						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
-						<a href="#">
-							<span>Подробнее</span>
-							<img src="img/icons/link-more.svg" alt="">
-						</a>
 					</div>
+					<a href="#" class="calendar__item-link">
+						<span>Подробнее</span>
+						<img src="img/icons/link-more.svg" alt="">
+					</a>
+				</div>
+				<div class="calendar__item">
+					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
+						<div class="calendar__item-date">01.11.2018<span>Казань</span></div>
+					</div>
+					<div class="calendar__item-info">
+						<p>Групповые обучающие программы</p>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					</div>
+					<a href="#" class="calendar__item-link">
+						<span>Подробнее</span>
+						<img src="img/icons/link-more.svg" alt="">
+					</a>
 				</div>
 				<div class="calendar__item">
 					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
@@ -376,24 +389,11 @@
 					<div class="calendar__item-info">
 						<p>Групповые обучающие программы</p>
 						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
-						<a href="#">
-							<span>Подробнее</span>
-							<img src="img/icons/link-more.svg" alt="">
-						</a>
 					</div>
-				</div>
-				<div class="calendar__item">
-					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
-						<div class="calendar__item-date">01.11.2018<span>Казань</span></div>
-					</div>
-					<div class="calendar__item-info">
-						<p>Групповые обучающие программы</p>
-						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
-						<a href="#">
-							<span>Подробнее</span>
-							<img src="img/icons/link-more.svg" alt="">
-						</a>
-					</div>
+					<a href="#" class="calendar__item-link">
+						<span>Подробнее</span>
+						<img src="img/icons/link-more.svg" alt="">
+					</a>
 				</div>
 
 				<div class="calendar__item">
@@ -403,11 +403,11 @@
 					<div class="calendar__item-info">
 						<p>Групповые обучающие программы</p>
 						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
-						<a href="#">
-							<span>Подробнее</span>
-							<img src="img/icons/link-more.svg" alt="">
-						</a>
 					</div>
+					<a href="#" class="calendar__item-link">
+						<span>Подробнее</span>
+						<img src="img/icons/link-more.svg" alt="">
+					</a>
 				</div>
 				<div class="calendar__item">
 					<div class="calendar__item-img" style="background-image: url('../img/calendar/bg-item-1.jpg')">
@@ -416,11 +416,192 @@
 					<div class="calendar__item-info">
 						<p>Групповые обучающие программы</p>
 						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</span>
-						<a href="#">
-							<span>Подробнее</span>
-							<img src="img/icons/link-more.svg" alt="">
+					</div>
+					<a href="#" class="calendar__item-link">
+						<span>Подробнее</span>
+						<img src="img/icons/link-more.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<img src="img/calendar/hand.svg" alt="" class="calendar__hand">
+		</div>
+	</div>
+</section>
+
+
+<section class="serts-sec">
+	<div class="container">
+		<div class="serts">
+			<div class="serts__info">
+				<p class="h2">Анна Фомичева руководитель Международного консалтингового центра «Бизнес-логистика» </p>
+				<div class="user-content">
+					<p>МКЦ «Бизнес Логистика», это  сервис, отточенный до мелочей, который способствует укреплению позиций российского бизнеса за границей и помогает отечественным компаниям в комплексном обслуживании ВЭД, поиске и закупке качественных товаров за рубежом на выгодных условиях, а также открытии и ведении собственного бизнеса на территории другой страны. Ответственное выполнение каждого заказа и открытость во взаимодействии с каждым клиентом – незыблемые принципы компании, благодаря которым наша репутация безупречна.</p>
+				</div>
+				<div class="serts__diploms">
+					<div class="serts__diplom">
+						<a href="img/serts/diplom-1.jpg" class="fancy" data-fancybox="sert-diploms">
+							<img src="img/serts/diplom-1.jpg" alt="">
 						</a>
 					</div>
+
+					<div class="serts__diplom">
+						<a href="img/serts/diplom-1.jpg" class="fancy" data-fancybox="sert-diploms">
+							<img src="img/serts/diplom-1.jpg" alt="">
+						</a>
+					</div>
+
+					<div class="serts__diplom">
+						<a href="img/serts/diplom-1.jpg" class="fancy" data-fancybox="sert-diploms">
+							<img src="img/serts/diplom-1.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="serts__specials">
+				<p>Специализации:</p>
+				<ul>
+					<li>Полное сопровождение ВЭД</li>
+					<li>Таможенное оформление</li>
+					<li>Международная логистика</li>
+					<li>Разрешительная документация</li>
+					<li>Торговое финансирование</li>
+					<li>Индивидуальное консультирование и сопровождение</li>
+					<li>Повышение квалификации для участников ВЭД, в рамках учебного центра</li>
+				</ul>
+			</div>
+			<div class="serts__logos">
+				<div class="serts__logo">
+					<img src="img/serts/logo-1.jpg" alt="">
+				</div>
+				<div class="serts__logo">
+					<img src="img/serts/logo-2.jpg" alt="">
+				</div>
+				<div class="serts__logo">
+					<img src="img/serts/logo-3.jpg" alt="">
+				</div>
+				<div class="serts__logo">
+					<img src="img/serts/logo-4.jpg" alt="">
+				</div>
+				<div class="serts__logo">
+					<img src="img/serts/logo-5.jpg" alt="">
+				</div>
+				<div class="serts__logo">
+					<img src="img/serts/logo-6.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="books-sec">
+	<div class="container">
+		<div class="books">
+			<div class="books__info">
+				<p class="h2">Анна&nbsp;Фомичева —&nbsp;автор книг и&nbsp;научных работ о&nbsp;ВЭД</p>
+				<div class="user-content">
+					<p>Окончила Морской Государственный Университет  им. Г.И. Невельского по специальности «организация управления на морском транспорте», обучалась в аспирантуре. Прошла курсы повышения квалификации во Владивостокском Филиале Российской Таможенной Академии по специальности «специалист по таможенному оформлению». После завершения курсов повышения квалификации в 2008 году, создала во Владивостоке учебный центр «Бизнес логистика», для повышения квалификации специалистов по ВЭД. Открыла учебный центр в Москве. Основала Группу международных логистических компаний, имеющих статус Уполномоченного экономического оператора и Таможенного представителя.</p>
+				</div>
+				<div class="books__list">
+					<div class="books__item">
+						<a href="#">
+							<img src="img/books/book-1.jpg" alt="">
+						</a>
+					</div>
+					<div class="books__item">
+						<a href="#">
+							<img src="img/books/book-2.jpg" alt="">
+						</a>
+					</div>
+					<div class="books__item">
+						<a href="#">
+							<img src="img/books/book-3.jpg" alt="">
+						</a>
+					</div>
+				</div>
+				<a href="#" class="books__item-all">
+					<span>Скачать все книги</span>
+					<img src="img/icons/link-more.svg" alt="">
+				</a>
+				<div class="books__articles">
+					<p class="h3">Статьи о ВЭД</p>
+					<a href="#"><span>1</span>Журнал "ВЭД-консалтинг".</a>
+					<a href="#"><span>2</span>Деловой еженедельник "Конкурент" 35 (17–23 сентября).</a>
+					<a href="#"><span>3</span>Формирование системы бюджетного управления. транспортно-экспедиторским предприятием на основе процессного подхода.</a>
+					<a href="#"><span>4</span>Форма работы: эл. журнал.</a>
+				</div>
+				<a href="#" class="books__item-all">
+					<span>Все статьи</span>
+					<img src="img/icons/link-more.svg" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="footer-sec">
+	<div class="container-big">
+		<p class="footer-name">ANNA FOMICHEVA</p>
+	</div>
+	<div class="container">
+		<div class="footer">
+			<div class="footer__soc">
+				<a href="#" target="_blank"><i class="i-soc-insta-2"></i></a>
+				<a href="#" target="_blank"><i class="i-soc-you-2"></i></a>
+				<a href="#" target="_blank"><i class="i-soc-fb"></i></a>
+				<a href="#" target="_blank"><i class="i-soc-vk"></i></a>
+			</div>
+			<div class="footer__info">
+				<div class="user-content">
+					<p>Анна Фомичева считает, что реалии современного ВЭД&nbsp;&mdash; это уход от&nbsp;&laquo;серых схем&raquo; и&nbsp;работа в&nbsp;&laquo;белую&raquo;, по&nbsp;прямым контрактам! Только это действительно выгодно и&nbsp;безопасно! Многие клиенты под ее&nbsp;наставничеством перешли на&nbsp;работу по&nbsp;прямым контрактам, ведь посредники не&nbsp;нужны&nbsp;&mdash; все можно сделать самим!</p>
+				</div>
+				<a href="#" class="btn fancy-modal" data-src="#modal-cons">получить консультацию</a>
+			</div>
+			<div class="footer__logos">
+				<div class="footer__logo">
+					<img src="img/footer/logo-1.png" alt="">
+				</div>
+				<div class="footer__logo">
+					<img src="img/footer/logo-2.png" alt="">
+				</div>
+				<div class="footer__logo">
+					<img src="img/footer/logo-3.png" alt="">
+				</div>
+				<div class="footer__logo">
+					<img src="img/footer/logo-4.png" alt="">
+				</div>
+				<div class="footer__logo">
+					<img src="img/footer/logo-5.png" alt="">
+				</div>
+			</div>
+			<div class="footer__contacts">
+				<div class="footer__contact">
+					<span>По вопросам выступлений</span>
+					<a href="mailto:info@b-logistic.org">info@b-logistic.org</a>
+				</div>
+				<div class="footer__contact">
+					<span>По вопросам сотрудничества</span>
+					<a href="mailto:fas@b-logistic.org">fas@b-logistic.org</a>
+				</div>
+				<div class="footer__contact">
+					<span>Бесплатный звонок по РФ</span>
+					<a href="tel:8 (800) 505-39-08">8 (800) 505-39-08</a>
+				</div>
+				<div class="footer__contact">
+					<span>Telegram | Whats’App</span>
+					<a href="tel:8 (926) 326-21-21">8 (926) 326-21-21</a>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__dev">
+					<a href="https://penbrain.ru/" target="_blank">Сайт разработан — <span>Pen&Brain</span></a>
+				</div>
+				<div class="footer__copy">
+					<a href="#" target="_blank">Политика конфиденциальности</a>
+				</div>
+				<div class="footer__copy">
+					<span>© 2018 Анна Фомичева</span>
 				</div>
 			</div>
 		</div>

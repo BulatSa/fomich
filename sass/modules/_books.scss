@@ -1,0 +1,122 @@
+.books-sec {
+	min-height: 1100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: url("../img/books/bg.jpg") no-repeat center bottom, #f5f9fc;
+	@include res(xl) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	@include res(l) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	@include res(m) {
+		min-height: initial;
+		background: url("../img/books/bg-mobile.jpg") no-repeat center bottom, #f5f9fc;
+		background-size: cover;
+	}
+}
+
+.books {
+	color: #000;
+}
+
+.books__info {
+	max-width: 610px;
+	.user-content {
+		font-size: 15px;
+		line-height: (24/15);
+	}
+}
+
+.books__list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	margin-left: -10px;
+	margin-right: -10px;
+	@include res(s) {
+		padding-top: 30px;
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+}
+
+.books__item {
+	width: calc(100% / 3);
+	padding-left: 10px;
+	padding-right: 10px;
+	@include res(s) {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}
+
+.books__item-all {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: (24/14);
+	letter-spacing: 0.12em;
+	transition: all 0.3s ease;
+	z-index: 1;
+	@include res(l) {
+		opacity: 1;
+	}
+	@include res(s) {
+		margin-left: 0;
+		margin-bottom: 15px;
+	}
+	&:hover {
+		color: $red;
+	}
+	img {
+		display: block;
+		flex-shrink: 0;
+		margin-left: 10px;
+	}
+}
+
+.books__articles {
+	padding-top: 40px;
+	@include res(s) {
+		padding-top: 30px;
+	}
+	a {
+		position: relative;
+		display: block;
+		margin-bottom: 10px;
+		padding-left: 29px;
+		transition: all 0.3s ease;
+		&:hover {
+			color: $red;
+		}
+		span {
+			position: absolute;
+			top: 1px;
+			left: 0;
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			margin-right: 5px;
+			text-align: center;
+			font-family: $proxima;
+			font-size: 12px;
+			font-weight: bold;
+			line-height: 18px;
+			border-radius: 50%;
+			color: #fff;
+			background: #000;
+		}
+	}
+}

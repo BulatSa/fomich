@@ -1,0 +1,139 @@
+.serts-sec {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: url("../img/serts/bg.jpg") no-repeat center;
+	background-size: auto 100%;
+	@include res(xl) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	@include res(l) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+.serts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.serts__info {
+	max-width: 655px;
+	width: 68%;
+	@include res(m) {
+		width: 100%;
+	}
+}
+
+.serts__diploms {
+	display: flex;
+	padding-top: 40px;
+	margin-left: -10px;
+	margin-right: -10px;
+	@include res(s) {
+		padding-top: 30px;
+	}
+}
+
+.serts__diplom {
+	width: calc(100% / 3 - 20px);
+	padding-left: 10px;
+	padding-right: 10px;
+	@include res(m) {
+		padding-left: 5px;
+		padding-right: 5px;
+		text-align: center;
+	}
+	a {
+		display: inline-block;
+		padding: 5px;
+		border-radius: 5px;
+		border: 3px solid #000;
+		background: #fff;
+	}
+	img {
+		display: block;
+		max-width: 165px;
+		width: 100%;
+	}
+}
+
+.serts__specials {
+	max-width: 305px;
+	width: 32%;
+	padding-top: 110px;
+	padding-left: 40px;
+	@include res(m) {
+		padding-top: 30px;
+		width: 100%;
+		max-width: 100%;
+		padding-left: 0;
+	}
+	p {
+		padding-bottom: 15px;
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: 600;
+	}
+	ul {
+		list-style: none;
+	}
+	li {
+		position: relative;
+		padding-left: 15px;
+		padding-bottom: 5px;
+		font-size: 15px;
+		line-height: (24/15);
+		&:before {
+			content: '';
+			position: absolute;
+			top: 6px;
+			left: 0;
+			width: 10px;
+			height: 5px;
+			border-bottom: 1px solid #fff;
+			border-left: 1px solid #fff;
+			transform: rotate(-45deg);
+		}
+	}
+}
+
+.serts__logos {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-top: 40px;
+	@include res(m) {
+		padding-top: 30px;
+	}
+}
+
+.serts__logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% / 6 - 20px);
+	min-height: 80px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	background: #fff;
+	@include res(m) {
+		min-height: 60px;
+	}
+	@include res(s) {
+		width: calc(100% / 3 - 10px);
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom: 10px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}
