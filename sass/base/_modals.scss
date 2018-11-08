@@ -1,9 +1,32 @@
 .modal {
 	display: none;
-	width: 500px;
+	width: 360px;
 	max-width: 100%;
+	padding: 40px 25px 25px;
+	border-radius: 5px;
 	will-change: transform, opacity;
 	overflow: visible !important;
+	@include res(s) {
+		padding: 30px 15px 20px;
+	}
+}
+
+.modal__title {
+	color: #000;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	@include res(s) {
+		font-size: 24px;
+	}
+}
+
+.modal__descr {
+	padding-bottom: 15px;
+	color: #000;
+	font-family: $proxima;
+	font-size: 14px;
+	line-height: (21/14);
 }
 
 .fancybox-slide--current {

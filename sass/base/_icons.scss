@@ -24,6 +24,15 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-input-mail:before {
+	content: "\e903";
+}
+.i-input-name:before {
+	content: "\e904";
+}
+.i-input-phone:before {
+	content: "\e905";
+}
 .i-soc-you-2:before {
 	content: "\e902";
 }

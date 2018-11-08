@@ -1,9 +1,5 @@
 ﻿<?php include('header.php'); ?>
 
-
-
-
-
 <section class="head-about-sec">
 	<div class="container-big">
 		<div class="header">
@@ -38,20 +34,20 @@
 	<div class="container">
 		<div class="about">
 			<div class="about__text">
-				<p class="h2">Анна Фомичева раскрывает все аспекты ведения бизнеса в России и за рубежом</p>
-				<div class="user-content">
+				<p class="h2 anim">Анна Фомичева раскрывает все аспекты ведения бизнеса в России и за рубежом</p>
+				<div class="user-content anim">
 					<p>На канале «Бизнес Ракета» на YouTube можно получить практические навыки ведения бизнеса в России и за рубежом. Анна Фомичева приглашает к беседе ярких спикеров — владельцев интересного бизнеса, которые в ходе откровенной беседы рассказывают о своих удачах и препятствиях на пути к успеху. Это те люди, на которых будет равняться поколение молодых предпринимателей!</p>
 					<p>Анна Фомичева не боится показать, что происходит на территории объектов строжайшей секретности и знакомит с самыми частыми ошибками в сфере ВЭД, о которых не принято говорить громко.</p>
 				</div>
 			</div>
 			<div class="about__video">
-				<a href="#">
+				<a href="#" class="anim">
 					<img src="img/about/play.png" alt="">
 					<span>Подписаться<br> на канал</span>
 				</a>
 				<p>Говорю то, о чем многие публично молчат</p>
 			</div>
-			<div class="about__slider">
+			<div class="about__slider anim">
 				<div class="about__slide">
 					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video">
 						<img src="img/about/slide-1.jpg" alt="">
@@ -87,12 +83,12 @@
 <section class="consult-sec">
 	<div class="container">
 		<div class="consult">
-			<div class="consult__info">
+			<div class="consult__info anim">
 				<p class="h2">Получите консультацию в области ВЭД </p>
 				<p class="h3">и систематизации бизнеса от эксперта с десятилетним опытом</p>
 				<a href="#" class="btn fancy-modal" data-src="#modal-cons">получить консультацию</a>
 			</div>
-			<div class="consult__quote">
+			<div class="consult__quote anim">
 				<p>Реалии современного ВЭД — это уход от «серых схем» и работа в «белую», по прямым контрактам.<br>Только это действительно выгодно и безопасно!</p>
 				<div class="consult__quote-sign">
 					<img src="img/consult/sign-2x.png" alt="">
@@ -112,112 +108,334 @@
 		<div class="direction">
 			<p class="direction__title h2">Направление деятельности</p>
 			<div class="direction__list">
-				<div class="direction__item">
-					<div class="direction__item-title">Аутсорсинг ВЭД</div>
-					<img src="img/direction/item-1.jpg" alt="">
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-1">
+					<span class="direction__item-title">Аутсорсинг ВЭД</span>
+					<img src="img/direction/item-1.png" alt="">
 					<span class="direction__item-descr">Возьму на себя все вопросы, связанные с логистикой и внешнеэкономической деятельностью.</span>
 					<div class="direction__item-link">
-						<a href="#">
+						<p>
 							<span>Подробнее</span>
 							<img src="img/icons/link-more.svg" alt="">
-						</a>
+						</p>
 					</div>
+				</a>
+				<div id="modal-direction-1" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
 				</div>
-				<div class="direction__item">
-					<div class="direction__item-title">Таможенный
-						представитель</div>
-					<img src="img/direction/item-2.jpg" alt="">
+
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-2">
+					<span class="direction__item-title">Таможенный
+						представитель</span>
+					<img src="img/direction/item-2.png" alt="">
 					<span class="direction__item-descr">Обеспечу защиту интересов компании и подскажу, как сократить издержки, связанные с декларированием товарных партий.</span>
 					<div class="direction__item-link">
-						<a href="#">
+						<p>
 							<span>Подробнее</span>
 							<img src="img/icons/link-more.svg" alt="">
-						</a>
+						</p>
 					</div>
+				</a>
+				<div id="modal-direction-2" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
 				</div>
-				<div class="direction__item">
-					<div class="direction__item-title">Учебный центр</div>
-					<img src="img/direction/item-3.jpg" alt="">
+
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-3">
+					<span class="direction__item-title">Учебный центр</span>
+					<img src="img/direction/item-3.png" alt="">
 					<span class="direction__item-descr">Преподаватели центра работают по авторской методике Stepinworking, что гарантирует погружение в рабочий процесс с первых дней обучения.</span>
 					<div class="direction__item-link">
-						<a href="#">
+						<p>
 							<span>Подробнее</span>
 							<img src="img/icons/link-more.svg" alt="">
-						</a>
+						</p>
 					</div>
+				</a>
+				<div id="modal-direction-3" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
 				</div>
 
-				<div class="direction__item">
-					<div class="direction__item-title">Торговое
-						финансирование</div>
-					<img src="img/direction/item-4.jpg" alt="">
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-4">
+					<span class="direction__item-title">Торговое
+						финансирование</span>
+					<img src="img/direction/item-4.png" alt="">
 					<span class="direction__item-descr">Помогу привлечь деньги для внешнеторговых операций вашей организации за счет средств банка или заемных средств.</span>
 					<div class="direction__item-link">
-						<a href="#">
+						<p>
 							<span>Подробнее</span>
 							<img src="img/icons/link-more.svg" alt="">
-						</a>
+						</p>
 					</div>
-				</div>
-				<div class="direction__item">
-					<div class="direction__item-title">Таможенный аудит</div>
-					<img src="img/direction/item-5.jpg" alt="">
-					<span class="direction__item-descr">Проанализирую документы, предназначенные для таможенных органов, и подскажу варианты легального снижения существующих затрат.</span>
-					<div class="direction__item-link">
-						<a href="#">
-							<span>Подробнее</span>
-							<img src="img/icons/link-more.svg" alt="">
-						</a>
-					</div>
-				</div>
-				<div class="direction__item">
-					<div class="direction__item-title">Юридическое
-						сопровождение ВЭД</div>
-					<img src="img/direction/item-6.jpg" alt="">
-					<span class="direction__item-descr">Разрешу все виды споров и обеспечу защиту ваших интересов в вопросах таможенного законодательства.</span>
-					<div class="direction__item-link">
-						<a href="#">
-							<span>Подробнее</span>
-							<img src="img/icons/link-more.svg" alt="">
-						</a>
-					</div>
+				</a>
+				<div id="modal-direction-4" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
 				</div>
 
-				<div class="direction__item">
-					<div class="direction__item-title">Консультирование
-						по вопросам ВЭД</div>
-					<img src="img/direction/item-1.jpg" alt="">
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-5">
+					<span class="direction__item-title">Таможенный аудит</span>
+					<img src="img/direction/item-5.png" alt="">
+					<span class="direction__item-descr">Проанализирую документы, предназначенные для таможенных органов, и подскажу варианты легального снижения существующих затрат.</span>
+					<div class="direction__item-link">
+						<p>
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</p>
+					</div>
+				</a>
+				<div id="modal-direction-5" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
+				</div>
+
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-6">
+					<span class="direction__item-title">Юридическое
+						сопровождение ВЭД</span>
+					<img src="img/direction/item-6.png" alt="">
+					<span class="direction__item-descr">Разрешу все виды споров и обеспечу защиту ваших интересов в вопросах таможенного законодательства.</span>
+					<div class="direction__item-link">
+						<p>
+							<span>Подробнее</span>
+							<img src="img/icons/link-more.svg" alt="">
+						</p>
+					</div>
+				</a>
+				<div id="modal-direction-6" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
+				</div>
+
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-7">
+					<span class="direction__item-title">Консультирование
+						по вопросам ВЭД</span>
+					<img src="img/direction/item-7.png" alt="">
 					<span class="direction__item-descr">Проконсультирую по всем этапам внешнеэкономической деятельности и помогу совершить импортные и экспортные сделки.</span>
 					<div class="direction__item-link">
-						<a href="#">
+						<p>
 							<span>Подробнее</span>
 							<img src="img/icons/link-more.svg" alt="">
-						</a>
+						</p>
 					</div>
+				</a>
+				<div id="modal-direction-7" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
 				</div>
-				<div class="direction__item">
-					<div class="direction__item-title">Возврат китайского
-						НДС</div>
-					<img src="img/direction/item-2.jpg" alt="">
+
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-8">
+					<span class="direction__item-title">Возврат китайского
+						НДС</span>
+					<img src="img/direction/item-8.png" alt="">
 					<span class="direction__item-descr">Помогу законно вернуть НДС при экспорте в краткие сроки.</span>
 					<div class="direction__item-link">
-						<a href="#">
+						<p>
 							<span>Подробнее</span>
 							<img src="img/icons/link-more.svg" alt="">
-						</a>
+						</p>
 					</div>
+				</a>
+				<div id="modal-direction-8" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
 				</div>
-				<div class="direction__item">
-					<div class="direction__item-title">Помощь в оформлении
-						УЭО и ТП</div>
-					<img src="img/direction/item-3.jpg" alt="">
+
+				<a href="#" class="direction__item anim fancy-modal" data-src="#modal-direction-9">
+					<span class="direction__item-title">Помощь в оформлении
+						УЭО и ТП</span>
+					<img src="img/direction/item-9.png" alt="">
 					<span class="direction__item-descr">Организую работу с платежными документами для упрощенной процедуры таможенного оформления.</span>
 					<div class="direction__item-link">
-						<a href="#">
+						<p>
 							<span>Подробнее</span>
 							<img src="img/icons/link-more.svg" alt="">
-						</a>
+						</p>
 					</div>
+				</a>
+				<div id="modal-direction-9" class="modal">
+					<p class="modal__title">Узнайте больше</p>
+					<p class="modal__descr">Оставьте заявку на бесплатную консультацию, на которой детально расскажем про данную деятельность</p>
+					<form class="ajax-form">
+						<input type="hidden" value="Новая заявка" name="form_subject">
+						<label>
+							<i class="i-input-name"></i>
+							<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
+						</label>
+						<label>
+							<i class="i-input-phone"></i>
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
+						</label>
+						<label>
+							<i class="i-input-mail"></i>
+							<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
+						</label>
+						<label class="style-checkbox">
+							<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+							<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+						</label>
+						<button type="submit" class="btn">Отправить</button>
+					</form>
 				</div>
 
 			</div>
@@ -230,13 +448,13 @@
 	<div class="container">
 		<div class="courses">
 			<div class="courses__info">
-				<p class="h2">Авторские курсы</p>
-				<div class="user-content">
+				<p class="h2 anim">Авторские курсы</p>
+				<div class="user-content anim">
 					<p>Методология обучения, разработанная Анной Фомичевой, основана на практическом материале, реальных кейсах ведения бизнеса. Она досконально изучает каждый случай из своей практики и максимально доходчиво объясняет как его решить своим ученикам. Системность, поэтапность изучения и практика — это основы качественного вхождения в деятельность по ВЭД.</p>
 				</div>
 			</div>
 			<div class="courses__list">
-				<div class="courses__item">
+				<div class="courses__item anim">
 					<div class="courses__item-text">
 						<b>01</b>
 						<span>Групповые обучающие программы</span>
@@ -251,7 +469,7 @@
 						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video"></a>
 					</div>
 				</div>
-				<div class="courses__item">
+				<div class="courses__item anim">
 					<div class="courses__item-text">
 						<b>02</b>
 						<span>Индивидуальные обучающие программы</span>
@@ -267,7 +485,7 @@
 					</div>
 				</div>
 
-				<div class="courses__item">
+				<div class="courses__item anim">
 					<div class="courses__item-text">
 						<b>03</b>
 						<span>Корпоративное обучение</span>
@@ -282,7 +500,7 @@
 						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video"></a>
 					</div>
 				</div>
-				<div class="courses__item">
+				<div class="courses__item anim">
 					<div class="courses__item-text">
 						<b>04</b>
 						<span>Личная консультация</span>

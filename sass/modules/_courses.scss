@@ -3,6 +3,7 @@
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background: url("../img/courses/bg.jpg") no-repeat center top;
+	overflow: hidden;
 	@include res(l) {
 		padding-top: 60px;
 	}
@@ -20,6 +21,28 @@
 
 .courses__info {
 	max-width: 460px;
+	.h2, .user-content {
+		&.anim {
+			opacity: 0;
+			transform: translate3d(50px,0,0);
+			transition: all 0.6s ease;
+		}
+	}
+
+	.h2 {
+		&.animated {
+			opacity: 1;
+			transform: translate3d(0,0,0);
+		}
+	}
+	.user-content {
+		&.animated {
+			opacity: 1;
+			transition-delay: 0.3s;
+			transform: translate3d(0,0,0);
+		}
+	}
+
 }
 
 .courses__list {
@@ -47,6 +70,8 @@
 	color: #000;
 	background: #fff;
 	overflow: hidden;
+	opacity: 0;
+	transition: all 0.6s ease;
 	@include res(xl) {
 		padding: 25px 0 0 25px;
 	}
@@ -60,6 +85,16 @@
 		margin-right: 0;
 		margin-bottom: 15px;
 		padding: 15px 0 0 15px;
+	}
+	&:nth-child(even) {
+		transform: translate3d(50px,50px,0);
+	}
+	&:nth-child(odd) {
+		transform: translate3d(-50px,50px,0);
+	}
+	&.animated {
+		opacity: 1;
+		transform: translate3d(0,0,0);
 	}
 }
 

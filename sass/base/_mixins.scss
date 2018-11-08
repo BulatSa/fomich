@@ -5,31 +5,32 @@
 }
 
 /// Иоконка закрытия модальных окон в виде креста.
-$full_cross_size: 36px;
-$cross_size: 20px;
+$full_cross_size: 24px;
+$cross_size: 12px;
 $cross_weight: 2px;
-$cross_color: #FFF;
-$cross-color--hover: #000;
-$cross-bg-color: #000;
-$cross-bg-color--hover: #fffb42;
+$cross_color: #000;
+$cross-color--hover: #fff;
+$cross-bg-color: #fff;
+$cross-bg-color--hover: $red;
 
 @mixin cross() {
 	position: absolute;
-	top: -$full_cross_size/2;
-	right: -$full_cross_size/2;
+	top: $full_cross_size/3;
+	right: $full_cross_size/3;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	background-color: $cross-bg-color;
 	width: $full_cross_size;
 	height: $full_cross_size;
+	border: 1px solid #bebebe;
 	border-radius: 50%;
-	border: none;
 	@include res(s) {
 		top: 5px;
 		right: 5px;
 	}
 
 	&:hover {
+		border-color: $red;
 		background-color: $cross-bg-color--hover;
 	}
 

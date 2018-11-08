@@ -21,8 +21,24 @@
 	@include res(m) {
 		min-height: initial;
 	}
+	.h2 {
+		opacity: 0;
+		transform: translate3d(50px,0,0);
+		transition: all 0.6s ease;
+		&.animated {
+			opacity: 1;
+			transform: translate3d(0,0,0);
+		}
+	}
 	.user-content {
 		max-width: 480px;
+		opacity: 0;
+		transform: translate3d(50px,0,0);
+		transition: all 0.6s ease 0.3s;
+		&.animated {
+			opacity: 1;
+			transform: translate3d(0,0,0);
+		}
 	}
 }
 
@@ -42,13 +58,12 @@
 		right: -30px;
 		margin-bottom: 140px;
 		transition: all 0.3s ease;
+		transform: translate3d(0,-30px,0);
 		@include res(m) {
 			right: initial;
 			margin-bottom: 20px;
 		}
-		&:hover {
-			transform: translate3d(0,-6px,0);
-		}
+
 		img {
 			display: block;
 			@include res(m) {
@@ -61,6 +76,14 @@
 			font-size: 16px;
 			font-weight: 300;
 			transform: translate3d(0,0,0);
+		}
+		&.animated {
+			transition: all 1.5s ease;
+			transform: translate3d(0,0,0);
+			&:hover {
+				transition: all 0.3s ease;
+				transform: translate3d(0,-6px,0);
+			}
 		}
 	}
 	p {
@@ -104,6 +127,9 @@
 	margin-top: 60px;
 	padding-left: 60px;
 	padding-right: 60px;
+	opacity: 0;
+	transform: translate3d(0,50px,0);
+	transition: all 0.6s ease;
 	@include res(m) {
 		padding-left: 30px;
 		padding-right: 30px;
@@ -122,6 +148,10 @@
 				right: 0;
 			}
 		}
+	}
+	&.animated {
+		opacity: 1;
+		transform: translate3d(0,0,0);
 	}
 }
 

@@ -198,6 +198,7 @@ $(document).ready(function() {
 	}
 
 	$('.about__slider').flickity(aboutSliderOptions);
+	Waypoint.refreshAll();
 });
 /***********************
 About Slider END
@@ -222,6 +223,7 @@ $(document).ready(function() {
 	}
 
 	$('.calendar__list').flickity(calendarSliderOptions);
+	Waypoint.refreshAll();
 });
 /***********************
 Calendar END
